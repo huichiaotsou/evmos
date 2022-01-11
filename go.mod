@@ -46,7 +46,6 @@ require (
 	github.com/containerd/continuity v0.1.0 // indirect
 	github.com/cosmos/go-bip39 v1.0.0 // indirect
 	github.com/cosmos/iavl v0.17.2 // indirect
-	github.com/cosmos/ibc-go/v2 v2.0.0 // indirect
 	github.com/cosmos/ledger-cosmos-go v0.11.1 // indirect
 	github.com/cosmos/ledger-go v0.9.2 // indirect
 	github.com/danieljoos/wincred v1.0.2 // indirect
@@ -163,4 +162,4 @@ replace github.com/99designs/keyring => github.com/cosmos/keyring v1.1.7-0.20210
 // TODO: remove once v0.45 has been released
 replace github.com/cosmos/cosmos-sdk => github.com/tharsis/cosmos-sdk v0.44.3-olympus
 
-// github.com/cosmos/ibc-go/v2 => github.com/cosmos/ibc-go/v3 v3.0.0-alpha2.0.20220111154900-a18cedb63b6d
+replace github.com/tharsis/ethermint => github.com/MonikaCat/ethermint v0.9.1-0.20220111162212-1ccf9f8f7876
